@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 
 st.title("DCGAN Synthetic Photo Generator")
 
-import tensorflow as tf
 import streamlit as st
 
 st.write("TensorFlow Version:", tf.__version__)
