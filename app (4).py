@@ -8,10 +8,6 @@ import matplotlib.pyplot as plt
 
 st.title("DCGAN Synthetic Photo Generator")
 
-import streamlit as st
-
-st.write("TensorFlow Version:", tf.__version__)
-
 # Safely load the dataset without crashing if directory is missing
 def load_dataset_safe(directory='MyPhotoDataset', img_size=(64, 64)):
     images = []
